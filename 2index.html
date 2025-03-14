@@ -1,0 +1,111 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+       }
+        body{
+            background: yellow;
+            text-align: center;
+    }               
+        header{
+            background-color:black;
+            height: 100px;
+            width: 100vw;
+        }
+         ul{
+            list-style-type: none; 
+            display: flex;
+            justify-content: space-around;
+        }
+
+        li{
+            height: 100px;
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        li:hover{
+            background-color: green;
+        }
+        a{
+            font-size: 30px;
+            color: #ffff;
+        }
+        h1, h2, h3{
+            margin-top: 30px;
+        }
+        form{
+
+            text-align: center;margin: 10px;;
+        }
+       li {
+        color: aliceblue;
+       }
+    </style>
+</head>
+<body>
+    <header>
+    <ul>
+        <li><a href="sahifa.html">LOG UP</a></li>
+                <li><a href="">COURSES </a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+                <li><a href="2index.html">sing in</a></li>
+
+    </ul>
+</header>
+<form action="/action_page.php">
+  <fieldset>
+    
+    <label for="fname">Ism:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="ismingizni kiriting" required><br><br>
+    <input type="hidden" id="custId" name="custId" value="3487">
+  
+    <label for="fname">Familiya:</label><br>
+    <input type="text" id="fname" name="fname"placeholder=" familiya kiriting" required ><br>
+    <input type="hidden" id="custId" name="custId" value="3487">
+
+
+    <label for="birthday">Birthday:</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+ 
+
+  
+    <label for="cars">Jins:</label><br>
+    <select id="jins" name="jins"><br>
+      <option value="Erkak"></option>
+      <option value="Erkak">Erkak</option>
+      <option value="Ayol">Ayol</option>
+    </select><br>
+  
+    <label for="email">Email kiriting:</label><br>
+    <input type="email" id="email" name="email">
+ <br>
+
+    <label for="email">Prol kiriting:</label><br>
+    <input type="email" id="email" name="email"> </form><br>
+
+    <label for="email">Parolni takrorlang:</label><br>
+    <input type="email" id="email" name="email">
+  <br>
+
+  
+    <label for="email">ozingiz haqingizda</label><br>
+    <textarea name="message" rows="5" cols="30"></textarea>
+
+
+   
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="saqlash">
+        <label for="vehicle1">saqlash</label><br>
+    
+            <input type="submit" value="bekor qilish"> 
+    <input type="submit" value="Submit">
+  </fieldset>
+  </form>
